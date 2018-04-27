@@ -1,0 +1,22 @@
+
+elasticsearch添加head插件
+
+3个 分别 添加依赖（windows服务）
+
+插件
+
+运行
+
+
+
+1.进入命令行： home键+R
+
+命令：
+
+> cd \elasticsearch根目录\bin\
+
+> plugin  install  mobz/elasticsearch-head
+
+2.运行es
+
+3.打开http://localhost:9200/_plugin/head/
